@@ -64,7 +64,7 @@ function LoginForm() {
         </div>
         <div className="relative flex justify-center text-xs uppercase">
           <span className="bg-background px-3 tracking-[0.22em] text-muted-foreground">
-            Or continue with email
+            Or
           </span>
         </div>
       </div>

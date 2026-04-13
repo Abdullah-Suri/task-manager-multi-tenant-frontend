@@ -49,11 +49,11 @@ export function AuthShell({
             </p>
           </div>
 
-          <div className="grid gap-3">
+          {/* <div className="grid grid-cols-3 gap-3">
             {trustPoints.map(({ title, description, icon: Icon }) => (
               <article
                 key={title}
-                className="rounded-3xl border border-border/60 bg-background/65 p-4 backdrop-blur"
+                className="col-span-1 rounded-3xl border border-border/60 bg-background/65 p-4 backdrop-blur"
               >
                 <div className="flex items-start gap-3">
                   <div className="flex size-10 shrink-0 items-center justify-center rounded-2xl bg-primary/10 text-primary">
@@ -66,10 +66,10 @@ export function AuthShell({
                 </div>
               </article>
             ))}
-          </div>
+          </div> */}
         </div>
 
-        <div className="rounded-3xl border border-border/60 bg-background/80 p-6 backdrop-blur">
+        {/* <div className="rounded-3xl border border-border/60 bg-background/80 p-6 backdrop-blur">
           <div className="flex items-center gap-2 text-sm font-medium">
             <CheckCircle2 className="size-4 text-emerald-600 dark:text-emerald-300" />
             Ready for day-to-day planning
@@ -77,7 +77,7 @@ export function AuthShell({
           <p className="mt-2 text-sm leading-6 text-muted-foreground">
             Sign in to manage projects, review updates, and keep the team on the same page.
           </p>
-        </div>
+        </div> */}
       </section>
 
       <section className="flex items-center justify-center px-6 py-12">

@@ -22,7 +22,7 @@ export function GoogleSignInButton() {
   }
 
   return (
-    <div className="flex justify-center rounded-2xl border border-border/60 bg-background px-3 py-3">
+    <div className="flex justify-center rounded-2xl px-3 py-3">
       <GoogleLogin
         shape="pill"
         size="large"
