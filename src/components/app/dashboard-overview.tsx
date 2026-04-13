@@ -13,7 +13,7 @@ export function DashboardOverview() {
 
   return (
     <div className="space-y-6">
-      <section className="rounded-3xl border border-border/60 bg-background p-6 shadow-sm">
+      <section className="rounded-3xl border border-border/60 bg-background p-6 shadow-sm mt-4">
         <p className="text-xs font-medium tracking-[0.24em] uppercase text-muted-foreground">
           Overview
         </p>

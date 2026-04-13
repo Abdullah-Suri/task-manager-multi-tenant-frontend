@@ -114,7 +114,7 @@ export function SettingsPanel() {
 
   return (
     <div className="space-y-6">
-      <section className="overflow-hidden rounded-[2rem] border border-border/60 bg-background shadow-sm">
+      <section className="overflow-hidden rounded-[2rem] border border-border/60 bg-background shadow-sm mt-4">
         <div className="border-b border-border/60 bg-[linear-gradient(135deg,rgba(248,247,255,0.95),rgba(240,248,246,0.92))] px-6 py-8 dark:bg-[linear-gradient(135deg,rgba(30,28,45,0.95),rgba(23,38,39,0.9))]">
           <p className="text-xs font-medium tracking-[0.24em] uppercase text-muted-foreground">
             Settings

@@ -112,7 +112,7 @@ export function WorkspaceAccessPanel({ workspace }: { workspace: Workspace }) {
 
   return (
     <div className="space-y-6">
-      <section className="overflow-hidden rounded-[2rem] border border-border/60 bg-background shadow-sm">
+      <section className="overflow-hidden rounded-[2rem] border border-border/60 bg-background shadow-sm mt-4">
         <div className="border-b border-border/60 px-6 py-8">
           <p className="text-xs font-medium uppercase tracking-[0.24em] text-muted-foreground">
             Team access

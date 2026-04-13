@@ -68,7 +68,7 @@ export function WorkspacesTable() {
 
   return (
     <div className="space-y-6">
-      <section className="overflow-hidden rounded-[2rem] border border-border/60 bg-background shadow-sm">
+      <section className="overflow-hidden rounded-[2rem] border border-border/60 bg-background shadow-sm mt-4">
         <div className="border-b border-border/60 px-6 py-8">
           <p className="text-xs font-medium tracking-[0.24em] uppercase text-muted-foreground">
             Workspaces
@@ -105,7 +105,7 @@ export function WorkspacesTable() {
         </div>
       </section>
 
-      <section className="overflow-hidden rounded-[2rem] border border-border/60 bg-card shadow-sm">
+      <section className="overflow-hidden rounded-[2rem] border border-border/60 bg-card shadow-sm mt-4">
         <div className="overflow-x-auto">
           <table className="min-w-full text-sm">
             <thead className="bg-muted/50 text-left text-muted-foreground">

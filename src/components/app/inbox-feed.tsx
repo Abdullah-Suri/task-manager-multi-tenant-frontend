@@ -41,7 +41,7 @@ export function InboxFeed() {
 
   return (
     <div className="space-y-6">
-      <section className="overflow-hidden rounded-[2rem] border border-border/60 bg-background shadow-sm">
+      <section className="overflow-hidden rounded-[2rem] border border-border/60 bg-background shadow-sm mt-4">
         <div className="border-b border-border/60 bg-[linear-gradient(135deg,rgba(244,248,255,0.95),rgba(244,238,255,0.86))] px-6 py-8 dark:bg-[linear-gradient(135deg,rgba(26,36,53,0.96),rgba(34,27,49,0.9))]">
           <p className="text-xs font-medium tracking-[0.24em] uppercase text-muted-foreground">
             Inbox

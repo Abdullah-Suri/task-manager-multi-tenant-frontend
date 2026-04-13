@@ -777,7 +777,7 @@ export function ProjectBoard({
 
   return (
     <div className="space-y-6">
-      <section className="overflow-hidden rounded-[2rem] border border-border/60 bg-background shadow-sm">
+      <section className="overflow-hidden rounded-[2rem] border border-border/60 bg-background shadow-sm mt-4">
         <div className="border-b border-border/60 bg-[linear-gradient(135deg,rgba(245,248,255,0.95),rgba(248,243,234,0.9))] px-6 py-8 dark:bg-[linear-gradient(135deg,rgba(28,35,52,0.95),rgba(34,27,39,0.92))]">
           <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
             <div>
